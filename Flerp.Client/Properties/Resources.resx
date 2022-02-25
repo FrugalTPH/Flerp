@@ -1,0 +1,1144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="blank_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blank_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blank_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blank_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blank_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blank_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="blank_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\blank_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_1_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark_1_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_1_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark_1_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_1_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark_1_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bookmark_1_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bookmark_1_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelled_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelled_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cert_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cert_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cert_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cert_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cert_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cert_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cert_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cert_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_arch_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_arch_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_arch_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_arch_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_arch_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_arch_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_arch_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_arch_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_copy_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_copy_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_copy_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_copy_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_copy_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_copy_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="db_copy_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\db_copy_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="export_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\export_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderA_plus_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderA_plus_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderA_plus_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderA_plus_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderA_plus_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderA_plus_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderA_plus_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderA_plus_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderW_plus_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderW_plus_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderW_plus_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderW_plus_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderW_plus_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderW_plus_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folderW_plus_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folderW_plus_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_1_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_1_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_1_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_1_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_1_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_1_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="globe_1_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\globe_1_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="home_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\home_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="import_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\import_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_num_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_num_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_num_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_num_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_num_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_num_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="list_num_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\list_num_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mail_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mail_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notepad_2_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notepad_2_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notepad_2_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notepad_2_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notepad_2_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notepad_2_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="notepad_2_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\notepad_2_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_2_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_2_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_2_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_2_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_2_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_2_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="phone_2_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\phone_2_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="refresh_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\refresh_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_arrow_down_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_arrow_down_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_arrow_down_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_arrow_down_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_arrow_down_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_arrow_down_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_arrow_down_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_arrow_down_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelled_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelled_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelled_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelled_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cancelled_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cancelled_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_checked_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_checked_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_checked_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_checked_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_checked_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_checked_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_checked_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_checked_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_unchecked_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_unchecked_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_unchecked_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_unchecked_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_unchecked_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_unchecked_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="checkbox_unchecked_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\checkbox_unchecked_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eye_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eye_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="padlock_closed_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock_closed_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="padlock_closed_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock_closed_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="padlock_closed_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock_closed_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="padlock_closed_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\padlock_closed_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pending_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pending_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pending_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pending_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pending_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pending_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pending_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pending_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="released_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\released_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="released_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\released_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="released_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\released_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="released_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\released_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share_2_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share_2_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share_2_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share_2_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share_2_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share_2_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="share_2_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\share_2_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_exportR_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_exportR_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_exportR_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_exportR_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_exportR_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_exportR_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_exportR_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_exportR_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_export_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_export_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_export_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_export_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_export_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_export_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_export_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_export_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_new_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_new_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_new_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_new_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_new_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_new_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_new_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_new_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_plus_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_plus_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_plus_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_plus_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_plus_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_plus_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_plus_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_plus_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_1_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_1_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_1_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_1_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_1_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_1_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_1_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_1_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_2_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_2_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_2_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_2_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_2_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_2_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layers_2_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layers_2_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_add_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_add_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_add_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_add_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_add_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_add_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="contact_add_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\contact_add_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_delete_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_delete_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_delete_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_delete_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_delete_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_delete_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_delete_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_delete_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_tilt_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_tilt_icon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_tilt_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_tilt_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_tilt_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_tilt_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_tilt_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_tilt_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frugal_tilt_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frugal_tilt_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_add_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_add_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_add_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_add_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_add_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_add_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_add_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_add_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_empty_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_empty_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_empty_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_empty_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_empty_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_empty_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="doc_empty_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\doc_empty_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="folder_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\folder_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="info_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\info_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pin_map_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pin_map_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pin_map_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pin_map_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pin_map_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pin_map_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pin_map_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pin_map_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_checkmark_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_checkmark_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_checkmark_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_checkmark_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_checkmark_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_checkmark_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="round_checkmark_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\round_checkmark_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailblue_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailblue_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailblue_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailblue_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailblue_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailblue_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailblue_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailblue_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailred_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailred_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailred_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailred_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailred_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailred_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mailred_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mailred_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Msg_propertyRefExprIsNull" xml:space="preserve">
+    <value>propertyRefExpr is null.</value>
+  </data>
+  <data name="Msg_NoPropertyRefExpFound" xml:space="preserve">
+    <value>No property reference expression was found.</value>
+  </data>
+  <data name="Label_Unassigned" xml:space="preserve">
+    <value>Unassigned</value>
+  </data>
+  <data name="Label_SelectZip" xml:space="preserve">
+    <value>Select zip...</value>
+  </data>
+  <data name="Label_SelectEmail" xml:space="preserve">
+    <value>Select email...</value>
+  </data>
+  <data name="Msg_ButtonClickError" xml:space="preserve">
+    <value>Could not complete button click action.</value>
+  </data>
+  <data name="Label_ApplicationExit" xml:space="preserve">
+    <value>Application Exit</value>
+  </data>
+  <data name="Term_Documents" xml:space="preserve">
+    <value>Documents</value>
+  </data>
+  <data name="Term_Parties" xml:space="preserve">
+    <value>Parties</value>
+  </data>
+  <data name="Label_TransmittalsDraft" xml:space="preserve">
+    <value>Transmittals (Draft)</value>
+  </data>
+  <data name="Term_Emails" xml:space="preserve">
+    <value>Emails</value>
+  </data>
+  <data name="Term_Versions" xml:space="preserve">
+    <value>Versions</value>
+  </data>
+  <data name="Term_Parties1" xml:space="preserve">
+    <value>Parties</value>
+  </data>
+  <data name="Term_Details" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="Term_Stubs" xml:space="preserve">
+    <value>Stubs</value>
+  </data>
+  <data name="Msg_SendsTransmittalsToX" xml:space="preserve">
+    <value>Sends {0} transmittals to {1}.</value>
+  </data>
+  <data name="Label_RelatedParties" xml:space="preserve">
+    <value>Related Parties</value>
+  </data>
+  <data name="Label_Binders" xml:space="preserve">
+    <value>Binders</value>
+  </data>
+  <data name="Label_Transmittals" xml:space="preserve">
+    <value>Transmittals</value>
+  </data>
+  <data name="Label_AllBinders" xml:space="preserve">
+    <value>All Binders</value>
+  </data>
+  <data name="Label_EmailsPendingRelease" xml:space="preserve">
+    <value>Emails Pending Release</value>
+  </data>
+  <data name="Label_AllParties" xml:space="preserve">
+    <value>All Parties</value>
+  </data>
+  <data name="Label_ActionableStubs" xml:space="preserve">
+    <value>Actionable Stubs</value>
+  </data>
+  <data name="Caption_BasketClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="Caption_BinderNewAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="Tooltip_BinderNewAdmin" xml:space="preserve">
+    <value>Creates a new admin binder.</value>
+  </data>
+  <data name="Name_BinderNewAdmin" xml:space="preserve">
+    <value>BinderNewAdmin</value>
+  </data>
+  <data name="Name_BasketClear" xml:space="preserve">
+    <value>BasketClear</value>
+  </data>
+  <data name="Name_BasketRefresh" xml:space="preserve">
+    <value>BasketRefresh</value>
+  </data>
+  <data name="Caption_BinderNewWork" xml:space="preserve">
+    <value>Work</value>
+  </data>
+  <data name="Name_BinderNewWork" xml:space="preserve">
+    <value>BinderNewWork</value>
+  </data>
+  <data name="Caption_DocumentBaseCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="Name_DocumentCancel" xml:space="preserve">
+    <value>DocumentCancel</value>
+  </data>
+  <data name="Caption_DocumentPurgeMaster" xml:space="preserve">
+    <value>Compress</value>
+  </data>
+  <data name="Name_DocumentPurgeMaster" xml:space="preserve">
+    <value>DocumentPurgeMaster</value>
+  </data>
+  <data name="Caption_DocumentConvertToDirectory" xml:space="preserve">
+    <value>To Directory</value>
+  </data>
+  <data name="Name_DocumentConvertToDirectory" xml:space="preserve">
+    <value>DocumentConvertToDirectory</value>
+  </data>
+  <data name="Caption_DocumentConvertToFile" xml:space="preserve">
+    <value>To File</value>
+  </data>
+  <data name="Name_DocumentConvertToFile" xml:space="preserve">
+    <value>DocumentConvertToFile</value>
+  </data>
+  <data name="Caption_DocumentRestoreMaster" xml:space="preserve">
+    <value>Extract</value>
+  </data>
+  <data name="Name_DocumentRestoreMaster" xml:space="preserve">
+    <value>DocumentRestoreMaster</value>
+  </data>
+  <data name="Caption_DocumentNewCopy" xml:space="preserve">
+    <value>New (Like)</value>
+  </data>
+  <data name="Name_DocumentNewCopy" xml:space="preserve">
+    <value>DocumentNewCopy</value>
+  </data>
+  <data name="Caption_DocumentNewRevision" xml:space="preserve">
+    <value>Revise</value>
+  </data>
+  <data name="Name_DocumentNewRevision" xml:space="preserve">
+    <value>DocumentNewRevision</value>
+  </data>
+  <data name="Caption_DocumentRelease" xml:space="preserve">
+    <value>Release</value>
+  </data>
+  <data name="Caption_DocumentSnapshot" xml:space="preserve">
+    <value>Snapshot</value>
+  </data>
+  <data name="Caption_DocumentBaseUncancel" xml:space="preserve">
+    <value>Uncancel</value>
+  </data>
+  <data name="Caption_EmailGet" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="Caption_EmailImportSent" xml:space="preserve">
+    <value>Sent</value>
+  </data>
+  <data name="Caption_PartyNewHuman" xml:space="preserve">
+    <value>Human</value>
+  </data>
+  <data name="Caption_PartyNewOrganisation" xml:space="preserve">
+    <value>Organisation</value>
+  </data>
+  <data name="Caption_PartyNewPartyDetail" xml:space="preserve">
+    <value>Detail</value>
+  </data>
+  <data name="Label_Refresh" xml:space="preserve">
+    <value>Refresh</value>
+  </data>
+  <data name="Caption_PartySendTransmittals" xml:space="preserve">
+    <value>Send</value>
+  </data>
+  <data name="Caption_StubNew" xml:space="preserve">
+    <value>Stub</value>
+  </data>
+  <data name="Caption_TransmittalCommit" xml:space="preserve">
+    <value>Commit</value>
+  </data>
+  <data name="Caption_TransmittalCreate" xml:space="preserve">
+    <value>Create</value>
+  </data>
+  <data name="Name_DocumentRelease" xml:space="preserve">
+    <value>DocumentRelease</value>
+  </data>
+  <data name="Name_DocumentSnapshot" xml:space="preserve">
+    <value>DocumentSnapshot</value>
+  </data>
+  <data name="Name_DocumentUncancel" xml:space="preserve">
+    <value>DocumentUncancel</value>
+  </data>
+  <data name="Name_EmailCancel" xml:space="preserve">
+    <value>EmailCancel</value>
+  </data>
+  <data name="Name_EmailGet" xml:space="preserve">
+    <value>EmailGet</value>
+  </data>
+  <data name="Name_EmailImportReceived" xml:space="preserve">
+    <value>EmailImportReceived</value>
+  </data>
+  <data name="Name_EmailImportSent" xml:space="preserve">
+    <value>EmailImportSent</value>
+  </data>
+  <data name="Name_EmailUncancel" xml:space="preserve">
+    <value>EmailUncancel</value>
+  </data>
+  <data name="Name_PartyNewHuman" xml:space="preserve">
+    <value>PartyNewHuman</value>
+  </data>
+  <data name="Name_PartyNewOrganisation" xml:space="preserve">
+    <value>PartyNewOrganisation</value>
+  </data>
+  <data name="Name_PartyNewPartyDetail" xml:space="preserve">
+    <value>PartyNewPartyDetail</value>
+  </data>
+  <data name="Name_PartyRefresh" xml:space="preserve">
+    <value>PartyRefresh</value>
+  </data>
+  <data name="Name_PartySendTransmittals" xml:space="preserve">
+    <value>PartySendTransmittals</value>
+  </data>
+  <data name="Name_StubNew" xml:space="preserve">
+    <value>StubNew</value>
+  </data>
+  <data name="Name_TransmittalCommit" xml:space="preserve">
+    <value>TransmittalCommit</value>
+  </data>
+  <data name="Name_TransmittalCreate" xml:space="preserve">
+    <value>TransmittalCreate</value>
+  </data>
+  <data name="DbField_Name" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="DbField_Description" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DbField_Id" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="DbField_Client" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="DbField_Category" xml:space="preserve">
+    <value>Category</value>
+  </data>
+  <data name="Label_Editor" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="Label_Currency" xml:space="preserve">
+    <value>Currency</value>
+  </data>
+  <data name="Label_Date" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Label_DeleteButton" xml:space="preserve">
+    <value>DeleteButton</value>
+  </data>
+  <data name="Label_DetailType" xml:space="preserve">
+    <value>DetailType</value>
+  </data>
+  <data name="Label_FsZipType" xml:space="preserve">
+    <value>FsZipType</value>
+  </data>
+  <data name="Label_Integer" xml:space="preserve">
+    <value>Integer</value>
+  </data>
+  <data name="Label_IsClicked" xml:space="preserve">
+    <value>IsClicked</value>
+  </data>
+  <data name="Label_IsComplete" xml:space="preserve">
+    <value>IsComplete</value>
+  </data>
+  <data name="Label_IsIgnorable" xml:space="preserve">
+    <value>IsIgnorable</value>
+  </data>
+  <data name="Label_IsPosted" xml:space="preserve">
+    <value>IsPosted</value>
+  </data>
+  <data name="DbField_LcStatus" xml:space="preserve">
+    <value>LcStatus</value>
+  </data>
+  <data name="Label_Memo" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="Label_MemoEx" xml:space="preserve">
+    <value>MemoEx</value>
+  </data>
+  <data name="Label_MemoPrivate" xml:space="preserve">
+    <value>MemoPrivate</value>
+  </data>
+  <data name="DbField_Privacy" xml:space="preserve">
+    <value>Privacy</value>
+  </data>
+  <data name="Label_Text" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="Label_TransmittalLink" xml:space="preserve">
+    <value>TransmittalLink</value>
+  </data>
+  <data name="Label_TransmittalTarget" xml:space="preserve">
+    <value>TransmittalTarget</value>
+  </data>
+  <data name="Msg_CellValueToClipboard" xml:space="preserve">
+    <value>Cell value was copied to the clipboard.</value>
+  </data>
+  <data name="Regex_FlerpIdLettersOnly" xml:space="preserve">
+    <value>[^a-z^A-Z]</value>
+  </data>
+  <data name="Layout_Prefix" xml:space="preserve">
+    <value>Layout_</value>
+  </data>
+  <data name="Layout_Delim" xml:space="preserve">
+    <value>_</value>
+  </data>
+  <data name="DbField_MajorId" xml:space="preserve">
+    <value>MajorId</value>
+  </data>
+  <data name="Label_TransmittalSource" xml:space="preserve">
+    <value>TransmittalSource</value>
+  </data>
+  <data name="Name_propertyRefExpr" xml:space="preserve">
+    <value>propertyRefExpr</value>
+  </data>
+  <data name="Label_Ellipses" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="Label_LifeCycleStatus" xml:space="preserve">
+    <value>Lifecycle Status</value>
+  </data>
+  <data name="Label_UploadLink" xml:space="preserve">
+    <value>Upload Link</value>
+  </data>
+  <data name="Label_DownloadLink" xml:space="preserve">
+    <value>Download Link</value>
+  </data>
+  <data name="Label_FileSource" xml:space="preserve">
+    <value>File (source)</value>
+  </data>
+  <data name="Label_PartyId" xml:space="preserve">
+    <value>Party Id</value>
+  </data>
+  <data name="Label_PartyName" xml:space="preserve">
+    <value>Party Name</value>
+  </data>
+  <data name="Label_AddressTarget" xml:space="preserve">
+    <value>Address (target)</value>
+  </data>
+  <data name="Msg_ErrorLoadingView" xml:space="preserve">
+    <value>Error loading view '{0}'.</value>
+  </data>
+  <data name="Msg_SuccessLoadingView" xml:space="preserve">
+    <value>Successfully loaded view '{0}'.</value>
+  </data>
+  <data name="Label_Extension" xml:space="preserve">
+    <value>Extension</value>
+  </data>
+  <data name="Label_PrivateNotes" xml:space="preserve">
+    <value>Private Notes</value>
+  </data>
+  <data name="Label_Type" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="Label_Filename" xml:space="preserve">
+    <value>Filename</value>
+  </data>
+  <data name="Label_LastWrite" xml:space="preserve">
+    <value>Last Write</value>
+  </data>
+  <data name="binderView_VersionsView" xml:space="preserve">
+    <value>binderView_VersionsView</value>
+  </data>
+  <data name="Label_Role" xml:space="preserve">
+    <value>Role</value>
+  </data>
+  <data name="Label_Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="binderView_partyDetailsView" xml:space="preserve">
+    <value>binderView_partyDetailsView</value>
+  </data>
+  <data name="Label_Value" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="Label_TaskComplete" xml:space="preserve">
+    <value>Task Complete</value>
+  </data>
+  <data name="Label_Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Label_From" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="Label_Attachments" xml:space="preserve">
+    <value>Attachments</value>
+  </data>
+  <data name="Label_Received" xml:space="preserve">
+    <value>Received</value>
+  </data>
+  <data name="emailView_VersionsView" xml:space="preserve">
+    <value>emailView_VersionsView</value>
+  </data>
+  <data name="Label_Deleted" xml:space="preserve">
+    <value>Deleted</value>
+  </data>
+  <data name="homeView_partyDetailsView" xml:space="preserve">
+    <value>homeView_partyDetailsView</value>
+  </data>
+  <data name="Label_Ref" xml:space="preserve">
+    <value>Ref</value>
+  </data>
+  <data name="Label_BibliographicReference" xml:space="preserve">
+    <value>Bibliographic Reference</value>
+  </data>
+  <data name="Name_StatusBar" xml:space="preserve">
+    <value>StatusBar</value>
+  </data>
+  <data name="Msg_OkToExitApp" xml:space="preserve">
+    <value>OK to exit application?</value>
+  </data>
+  <data name="Msg_OutstandingTasks" xml:space="preserve">
+    <value>There may be outstanding queued tasks. OK to save these tasks and exit anyway?</value>
+  </data>
+  <data name="Label_Basket" xml:space="preserve">
+    <value>Basket</value>
+  </data>
+  <data name="Label_Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="Label_Relationship" xml:space="preserve">
+    <value>Relationship</value>
+  </data>
+  <data name="Label_Url" xml:space="preserve">
+    <value>Url</value>
+  </data>
+  <data name="Label_Receipt" xml:space="preserve">
+    <value>Receipt</value>
+  </data>
+  <data name="Caption_DocumentNewNull" xml:space="preserve">
+    <value>New</value>
+  </data>
+  <data name="Name_DocumentNewNull" xml:space="preserve">
+    <value>DocumentNewNull</value>
+  </data>
+  <data name="Caption_StubView" xml:space="preserve">
+    <value>All Stubs</value>
+  </data>
+  <data name="Name_StubView" xml:space="preserve">
+    <value>StubView</value>
+  </data>
+  <data name="Caption_DocView" xml:space="preserve">
+    <value>All Docs</value>
+  </data>
+  <data name="Name_DocView" xml:space="preserve">
+    <value>DocView</value>
+  </data>
+  <data name="Caption_SaveChanges" xml:space="preserve">
+    <value>Apply</value>
+  </data>
+  <data name="Name_SaveChanges" xml:space="preserve">
+    <value>SaveChanges</value>
+  </data>
+  <data name="wrench_icon_16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench_icon&amp;16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrench_icon_24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench_icon&amp;24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrench_icon_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench_icon&amp;32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wrench_icon_48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wrench_icon&amp;48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Caption_AppSettings" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Name_AppSettings" xml:space="preserve">
+    <value>AppSettings</value>
+  </data>
+  <data name="Caption_AppSettingsView" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="Name_AppSettingsView" xml:space="preserve">
+    <value>AppSettingsView</value>
+  </data>
+</root>
